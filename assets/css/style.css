@@ -1,0 +1,330 @@
+body {
+	background-image: url("../images/ep_naturalblack.png");
+	margin: auto 0;
+	width: 100%
+	height: 100%;
+}
+/*gitfix!*/
+
+#topBanner {
+	background-color: #ffffff;
+	border-bottom: 2px solid #dddddd;
+	border-right: 2px solid #dddddd;
+	border-left: 2px solid #dddddd;
+	clear: both;
+	margin: 0;
+	height: 6.25em;
+    position: relative;
+	bottom: 1.38em;
+
+}
+
+#yourName {
+	background-color: #4aaaa5;
+	width: 10em;
+	height: 100%;
+	text-align: center;
+	margin-left: 5%;
+	padding: 0 1em 0 1em;
+	color: #ffffff;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 2em;
+    line-height: 3.5em;
+    font-weight: bold;
+}
+
+.topButtons {
+    
+    display: inline-block;
+    height: 2.5em;
+    line-height: 2.5em;
+    position: relative;
+    float: right;
+    bottom: 3.44em;
+    padding: 0 0.63em;
+    margin-right: 5%;
+    color: #777777;
+    text-decoration: none;
+    border-left: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+    font-size: 1.17em;
+    font-weight: bold;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.topButtons:active {
+    height: 2.19em;
+    line-height: 2.19em;
+}
+
+.topButtons:hover {
+	/*BS override*/
+	text-decoration: none;
+	color: #777777;
+}
+
+.topButtons:focus {
+	/*BS override*/
+	text-decoration: none;
+	color: #777777;
+}
+
+#connectSection {
+	float: left;
+	background-color: #ffffff;
+	color: #4aaaa5;
+	border: 1px solid #dddddd;
+	margin-left: 5%;
+	margin-bottom: 100px;
+	width: 270px;
+}
+
+#connectWithMe {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin: 8% 0;
+	text-align: center;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.connectIcon {
+	height: 50px;
+	width: 50px;
+	margin-left: 27px;
+	margin-top: 23px;
+	margin-bottom: 23px;
+}
+
+#footer {
+	background-color: #666666;
+	width: 100%;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	border-top: 5px solid #4aaaa5;
+	position: fixed;
+	bottom: 0;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+hr {
+	width: 90%;
+	display: block;
+	margin-bottom: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: inset;
+	border-width: 1px;
+}
+
+#bioSection {
+	clear: both;
+	float: left;
+	background-color: #ffffff;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 100px;
+	width: 650px;
+	color: #4aaaa5;
+	border: 1px solid #dddddd;
+	padding-bottom: 2%;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#aboutMe {
+	margin-left: 5%;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	font-size: 2em;
+	font-weight: bold;
+	padding-top: 0.67em;
+
+}
+
+#myPic {
+	float: left;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-right: 5%;
+	height: 200px;
+	width: 167px;
+}
+
+#bioInfo {
+	width: 90%;
+	margin-left: 5%;
+    margin-top: 28px;
+	color: #777777;
+	line-height: 1.75em;
+}
+
+#portfolioPane {
+	clear: both;
+	float: left;
+	background-color: #ffffff;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 100px;
+	width: 650px;
+	color: #4aaaa5;
+	border: 1px solid #dddddd;
+	padding-bottom: 2%;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#portfolioTitle {
+	margin-left: 5%;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	font-size: 2em;
+	font-weight: bold;
+	padding-top: 0.67em;
+}
+
+.containers {
+	position: relative;
+	width: 240px;
+	height: 180px;
+	float: left;
+	margin-top: 5%;
+	margin-left: 8%;
+}
+
+.portfolioButtons {
+	text-decoration: none;
+	background-color: #4aaaa5;
+	padding: 5px 0;
+	color: #ffffff;
+	text-align: center;
+	position: absolute;
+	left: 0;
+	top: 75%;
+	width: 240px;
+}
+
+.portfolioPics {	
+	width: 240px;
+	height: 180px;
+}
+
+#contactPane {
+	clear: both;
+	float: left;
+	background-color: #ffffff;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 100px;
+	width: 650px;
+	color: #4aaaa5;
+	border: 1px solid #dddddd;
+	padding-bottom: 2%;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#contactTitle {
+	margin-left: 5%;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	font-size: 2em;
+	font-weight: bold;
+	padding-top: 0.67em;
+
+}
+
+#forms {
+	margin-left: 5%;
+	margin-top: 5%;
+	color: #777777;
+}
+
+.formText {
+    font-size: 1.17em;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#submitButton {
+	width: 100px;
+	height: 35px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	border: none;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#messageSpace {
+	width: 575px;
+	max-width: 575px;
+	min-width: 575px;
+	min-height: 180px;
+}
+
+.nameEmail {
+	width: 575px;
+}
+
+@media screen and (max-width: 980px) {
+    #topBanner {
+    	width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+	#topBanner {
+		min-width: 768px;
+	}
+	#connectSection {
+		width: 650px;
+	}
+	#connectWithMe {
+		padding:0;
+		margin: 1em 0;
+		text-align: left;
+		margin-left: 5%;
+	}
+
+}
+
+@media screen and (max-width: 640px) {
+	#topBanner {
+		min-width: 640px;
+		text-align: center;
+		height: 12em;
+	}
+	#portfolioPane {
+		width: 550px;
+	}
+	#bioSection {
+		width: 550px;
+	}
+	#messageSpace {
+		width: 450px;
+		max-width: 450px
+		min-width: 450px;
+	}
+	.nameEmail {
+		width: 500px;
+	}
+	#yourName {
+        height: 60%;
+        width: 550px;
+	}
+	.topButtons {
+        float: left;
+        left: 155px;
+        top: 25px;
+
+	}
+    #contactPane {
+    	width: 550px;
+    }
+	#connectWithMe {
+		padding:0;
+		margin: 1em 0;
+		text-align: left;
+		margin-left: 5%;
+		width: 500px;
+	}	
+	#connectSection {
+		width: 550px;
+	}
+}
+
